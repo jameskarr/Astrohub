@@ -15,7 +15,6 @@ function goFetch() {
             document.querySelector('h3').innerText = data.date
             document.querySelector('p').innerText = data.explanation
             
-
             if(data.media_type === 'image') {
                 document.querySelector('img').src = data.hdurl
                 document.querySelector('iframe').classList.add('hidden')
@@ -25,8 +24,6 @@ function goFetch() {
                 document.querySelector('img').classList.add('hidden')
                 document.querySelector('iframe').classList.remove('hidden')
             }
-            
-            
         })
         .catch(err => {
             console.log(`error ${err}`)

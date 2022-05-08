@@ -17,10 +17,10 @@ body {
   align-items: center;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 button {
-  font-size: 1rem;
+  font-size: 1.5rem;
   height: 50px;
   width: 150px;
   color: white;
@@ -31,16 +31,16 @@ button:focus {
   transition: 0.5s;
   color: rgb(252, 61, 33);
   background: rgb(11, 61, 145);
-  border: 1px solid white;
+  border: 2px solid white;
 }
-span {
-  font-size: 1rem;
+aside {
+  font-size: 1.25rem;
   text-align: center;
   color: rgba(255, 255, 255, .5);
 }
 input {
-  font-size: 1rem;
-  height: 25px;
+  font-size: 1.25rem;
+  height: 35px;
 }
 .mids {
   margin-left: 10%;
@@ -50,6 +50,7 @@ h2 {
   text-decoration: underline;
 }
 h3 {
+  font-size: 2rem;
   padding-left: 5%;
 }
 .botts {
@@ -58,9 +59,33 @@ h3 {
   align-items: center;
 }
 p {
+  font-size: 1.25rem;
   padding: 2% 10%;
 }
 img {
   max-width: 95%;
   border: 2px solid white;
+}
+
+@media all and (max-width:1250px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  button {
+    font-size: 2.5rem;
+    height: 100px;
+    width: 300px;
+  }
+  aside {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
 }
