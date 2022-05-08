@@ -1,16 +1,13 @@
-/******************************************
-/* CSS
-/*******************************************/
-
 /* Box Model Hack */
 * {
   box-sizing: border-box;
 }
-
-/******************************************
-/* LAYOUT
-/*******************************************/
+.hidden {
+  display: none;
+}
 body {
+  display: flex;
+  flex-direction: column;
   background: rgba(0, 0, 0, .9);
   color: white;
 }
@@ -22,35 +19,48 @@ body {
 h1 {
   font-size: 2rem;
 }
-span {
-  font-size: 1.25rem;
-  color: rgba(255, 255, 255, .5);
-}
-input {
-  height: 25px;
-}
 button {
   font-size: 1rem;
   height: 50px;
   width: 150px;
+  color: white;
+  background: rgba(255, 255, 255, .5);
+}
+button:hover,
+button:focus {
+  transition: 0.5s;
+  color: rgb(252, 61, 33);
+  background: rgb(11, 61, 145);
+  border: 1px solid white;
+}
+span {
+  font-size: 1rem;
+  text-align: center;
+  color: rgba(255, 255, 255, .5);
+}
+input {
+  font-size: 1rem;
+  height: 25px;
 }
 .mids {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-left: 10%;
 }
 h2 {
   font-size: 2rem;
   text-decoration: underline;
 }
+h3 {
+  padding-left: 5%;
+}
+.botts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 p {
-  width: 75%;
+  padding: 2% 10%;
 }
 img {
   max-width: 95%;
+  border: 2px solid white;
 }
-
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
