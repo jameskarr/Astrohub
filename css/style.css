@@ -6,6 +6,7 @@
   display: none;
 }
 body {
+  margin: 5vh;
   display: flex;
   flex-direction: column;
   background: rgba(0, 0, 0, .9);
@@ -18,14 +19,16 @@ body {
   text-align: center;
 }
 h1 {
+  margin: .5%;
   font-size: 2.5rem;
 }
 button {
-  font-size: 1.5rem;
-  height: 50px;
-  width: 150px;
+  font-size: 1.75rem;
+  height: 8vh;
+  width: 20vh;
   color: white;
   background: rgba(255, 255, 255, .5);
+  border-radius: 15px;
 }
 button:hover,
 button:focus {
@@ -34,12 +37,25 @@ button:focus {
   background: rgb(11, 61, 145);
   border: 2px solid white;
 }
+.box {
+  font-size: 1.15rem;
+  color: white;
+  border: 2px solid white;
+}
+.bubble {
+  padding: .25%;
+  color: whitesmoke;
+  background: linear-gradient( rgba(255, 255, 255, .1), rgba(255, 255, 255, .9));
+  border-radius: 25px;
+}
 aside {
-  font-size: 1.25rem;
+  margin: .5%;
+  font-size: 1rem;
   text-align: center;
   color: rgba(255, 255, 255, .5);
 }
 input {
+  margin: .5%;
   font-size: 1.25rem;
   height: 35px;
 }
@@ -64,7 +80,8 @@ p {
   padding: 2% 10%;
 }
 img {
-  max-width: 95%;
+  height: 95vh;
+  width: 95vw;
   border: 2px solid white;
 }
 
@@ -78,7 +95,7 @@ img {
     width: 300px;
   }
   aside {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .mids {
     margin-left: 5%;
@@ -92,5 +109,9 @@ img {
   p {
     font-size: 1.5rem;
     padding: 2% 5%;
+  }
+  img {
+    height: 50vh;
+    width: 95vw;
   }
 }
