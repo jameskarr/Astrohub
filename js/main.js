@@ -1,6 +1,7 @@
 //The user will enter a date. Use that date to get the NASA picture of the day from that date!
 // https://api.nasa.gov/
 
+document.querySelector('.tops').style.display = 'none'
 document.querySelector('button').addEventListener('click', goFetch)
 
 function goFetch() {
@@ -11,6 +12,7 @@ function goFetch() {
         .then(res => res.json())
         .then(data => {
             console.log(data)
+            document.querySelector('.tops').style.display = 'flex'
             document.querySelector('h2').innerText = data.title
             document.querySelector('h3').innerText = data.date
             document.querySelector('p').innerText = data.explanation
@@ -29,3 +31,5 @@ function goFetch() {
             console.log(`error ${err}`)
         })
 }
+
+
