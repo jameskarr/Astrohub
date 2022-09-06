@@ -17,6 +17,9 @@ body {
 h2 {
   text-decoration: underline;
 }
+h3 {
+  width: 100%;
+}
 p {
   font-size: 1.25rem;
   padding: 2% 10%;
