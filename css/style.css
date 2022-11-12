@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 body {
+  background: black;
   background-image: url(https://i.ibb.co/7kcCsRv/webb-First-Deep-Field.png);
   color: white;
   margin: 2rem;
