@@ -1,6 +1,6 @@
 # Daily Observatory
 
-![alt tag](https://i.ibb.co/zFSrLqL/nasaPOTD.gif) 
+![alt tag](https://i.ibb.co/q99JjMs/unnamed.png) 
 
 ## How It's Made:
 **Tech used:** HTML, CSS, Javascript
