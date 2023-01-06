@@ -1,6 +1,6 @@
 # Daily Observatory
 
-![alt tag](https://jameskarr.netlify.app/images/nasaPOTD.gif)
+![alt tag](https://jameskarr.netlify.app/images/nasaPOTD.gif) 
 
 ## How It's Made:
 **Tech used:** HTML, CSS, Javascript
