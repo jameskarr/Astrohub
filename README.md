@@ -5,4 +5,4 @@
 ## How It's Made:
 **Tech used:** HTML, CSS, Javascript
 
-Designed to be an educational resource for astronomy. This application integrates data directly from a NASA API and displays beautiful images of the known universe with information about the cosmic event.
+An educational resource that integrates data directly from NASA APIs every day. This app has an interactive and visually stimulating interface that brings the forefront of outer space directly to the user.
